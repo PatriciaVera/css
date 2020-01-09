@@ -1,5 +1,5 @@
-…or create a new repository on the command line
-echo "# css" >> README.md
+…or create a new repository on the command line echo "# css" >> README.md
+
 git init
 git add README.md
 git commit -m "first commit"
