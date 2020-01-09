@@ -1,0 +1,35 @@
+/* Fuentes personalizadas*/
+
+@font-face {
+    font-family: 'antoncustom';
+    src: url(/clases-css/02-fuentes/fonts/Anton-Regular.ttf);
+}
+
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+
+    /* Colores*/
+
+    /* sistema*/
+    color: mediumslateblue;
+    /* hexadecimales*/
+    color: #ccc;
+    /* rgb*/
+    color: rgb(15, 25, 0.2);
+    /* rgba*/
+    color: rgba(179, 39, 155, 0.3);
+
+}
+
+h2 {
+    font-size: 14px;
+    font-family: antoncustom, serif;
+    font-weight: 800;
+}

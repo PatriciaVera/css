@@ -1,0 +1,111 @@
+/*
+###### Selectores ######
+*/
+
+/* Selector Universal */
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Selector de etiqueta*/
+
+h1 {
+    color: black;
+    background: yellow;
+}
+
+a {
+    font-size: 18px;
+    color: teal;
+    text-decoration: none;
+}
+
+/* Selectores compuestos */
+
+footer a {
+    color: tomato;
+}
+
+/*Selector de id*/
+
+#description {
+    border: solid 2px black;
+    color: darkgreen;
+    padding: 2%;
+    font-weight: 500;
+    margin: 5%;
+}
+
+#description h2 {
+    font-weight: bold;
+    color: darkolivegreen;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/*Selector de clase*/
+
+.parrafo {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.parrafo1 {
+    color: darkslategrey;
+}
+
+.parrafo2 {
+    color: dimgray;
+}
+
+.parrafo3 {
+    color: #000;
+    background: gold;
+}
+
+/*Selector de etributo*/
+
+#usuario form {
+    border: 2px solid grey;
+    padding: 20px;
+    margin: 10px;
+}
+
+#usuario form * {
+    display: block;
+}
+
+input[type="text"], input[type= "email"] {
+    margin-bottom: 2%;
+    margin-top: 1%;
+    width: 20%;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    background-color: hotpink;
+    color: indigo;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: solid 2px hotpink;
+    cursor: pointer;
+
+}
+
+
+/* Selectores hijos */
+
+#submenu > li > a {
+    color: rgba(41, 77, 6, 0.575);
+}
+
+/* Prioridad */
+
+#saludo h1 {
+    background-color: lightseagreen;
+}
+
+h1 {
+    background-color: mediumaquamarine;
+}
