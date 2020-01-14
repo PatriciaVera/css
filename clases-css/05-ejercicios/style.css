@@ -232,7 +232,7 @@ h1 {
     font-style: normal;
     text-align: center;
     position: relative;
-    top: 35px;
+    top: 45px;
     left: 60px;
     font-size: small;
     font-weight: 100;
@@ -242,6 +242,6 @@ h1 {
     font-weight: 100;
     font-size: small;
     position: relative;
-    top: 40px;
-    left: 65px;
+    top: 50px;
+    left: 75px;
 }
