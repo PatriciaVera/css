@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cajas {
+    max-width: 870px;
+    border: tomato solid 2px;
+}
+
+.caja{
+    width: 250px;
+    height: 250px;
+    border: rgb(66, 78, 42) 5px solid;
+    background-color: teal;
+    color: white;
+    margin: 15px;
+    float: left;
+    display: block;
+}
+
+.caja p {
+    text-align: center;
+
+}
+
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+body {
+    padding: 50px;
+}
